@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: 2010-09-09
 Parameters: 
   ProjectSource: 
     Type: String
-    Default: "https://github.com/qswitcher/imgterest"
+    Default: "https://github.com/jmcconne10/tracker"
     Description: "Source control URL (e.g. Github)"
   GithubOwner:
     Type: String
@@ -162,7 +162,7 @@ Resources:
         Image: "aws/codebuild/standard:2.0"
       Source:
         Type: CODEPIPELINE
-        BuildSpec: buildspec.yml
+        BuildSpec: buildspec.yaml
   PipelineBucket: 
     Type: 'AWS::S3::Bucket'
     Properties: {}
