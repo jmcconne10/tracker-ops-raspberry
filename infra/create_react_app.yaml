@@ -2,20 +2,20 @@ AWSTemplateFormatVersion: 2010-09-09
 Parameters: 
   ProjectSource: 
     Type: String
-    Default: "https://github.com/jmcconne10/tracker"
+    Default: "https://github.com/jmcconne10/"
     Description: "Source control URL (e.g. Github)"
   GithubOwner:
     Type: String
-    Default: qswitcher
+    Default: jmcconne
   GithubRepo:
     Type: String
-    Default: my-test-app
+    Default: updateRepo
   GithubOAuthToken:
     Type: String
     Description: "Github personal access token"
   GithubBranch:
     Type: String
-    Default: main
+    Default: updateBranch
     Description: "e.g. master or main"
   
 Resources:
