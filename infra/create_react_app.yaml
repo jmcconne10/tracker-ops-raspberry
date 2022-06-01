@@ -15,7 +15,7 @@ Parameters:
     Description: "Github personal access token"
   GithubBranch:
     Type: String
-    Default: updateBranch
+    Default: updateBranch2
     Description: "e.g. master or main"
   
 Resources:
